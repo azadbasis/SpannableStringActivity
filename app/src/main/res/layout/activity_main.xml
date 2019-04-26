@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewSpannableString"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="I know just how to whisper, And I know just how to cry,I know just where to find the answers"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonSetForegroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonsetforgroundcolor" />
+
+    <Button
+        android:id="@+id/buttonSetBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetBackgroundColor" />
+
+    <Button
+        android:id="@+id/buttonSetUnderLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetUnderLine" />
+
+    <Button
+        android:id="@+id/buttonSetStrikeThrough"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetStrikeThrough" />
+
+    <Button
+        android:id="@+id/buttonSetTextRelativeSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetTextRelativeSize" />
+
+    <Button
+        android:id="@+id/buttonSetStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetStyle" />
+
+    <Button
+        android:id="@+id/buttonSetSuperscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetSuperscript" />
+
+    <Button
+        android:id="@+id/buttonSetSubscript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetSubscript" />
+
+    <Button
+        android:id="@+id/buttonSetImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetImage" />
+
+    <Button
+        android:id="@+id/buttonSetUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetUrl" />
+
+    <Button
+        android:id="@+id/buttonSetClickable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="buttonSetClickable" />
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
